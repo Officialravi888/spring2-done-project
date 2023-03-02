@@ -16,7 +16,8 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Size(min=4,message = "name should have min of 4 characters")
+    //@Size(min=4,message = "name should have min of 4 characters")
+    @Size(message = "name should have min of 4 characters")
     @NotEmpty(message="name should not be null")
     private String name;
     private int age;

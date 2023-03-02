@@ -1,4 +1,4 @@
-package org.example.errors;
+package org.example.errors0;
 
 
 public class StudentNotFoundException extends RuntimeException{
